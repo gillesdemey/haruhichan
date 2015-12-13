@@ -1,0 +1,25 @@
+{
+  "name": "node-haruhichan",
+  "version": "0.1.0",
+  "description": "A modern and sane API wrapper for Haruhichan",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "Gilles De Mey <gilles.de.mey@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "debug": "^2.2.0",
+    "lodash": "^3.10.1",
+    "nets": "^3.2.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tape": "^4.2.2"
+  }
+}
